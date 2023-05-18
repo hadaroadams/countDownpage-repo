@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+img {
+  width: 95%;
+  height: 370px;
+}
+
+body {
+  background-color: rgb(231, 239, 243);
+}
+body section {
+  margin: 90px 30px;
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body section article {
+  margin-bottom: 30px;
+}
+body section article h1 {
+  color: rgb(12, 101, 170);
+  font-size: 1.3em;
+  letter-spacing: 4px;
+  margin-bottom: 14px;
+}
+body section article h2 {
+  letter-spacing: 4px;
+  font-size: 0.9em;
+  margin-bottom: 40px;
+}
+body section article p {
+  color: rgb(128, 165, 201);
+  margin-bottom: 40px;
+}
+body section article .timer {
+  background-color: blue;
+  height: 100px;
+  display: flex;
+  background-color: transparent;
+}
+body section article .timer div {
+  margin-right: 20px;
+  width: 90;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-color: rgb(13, 34, 63);
+}
+body section article .timer div h3 {
+  font-size: 2em;
+}
+@media (min-width: 800px) {
+  body section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  body section article {
+    display: flex;
+    width: 47%;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  body section article img {
+    width: 100%;
+  }
+  body section article h1 {
+    font-size: 2em;
+  }
+  body section article .timer div {
+    width: 80px;
+    height: 80px;
+  }
+}/*# sourceMappingURL=style.css.map */
